@@ -1,0 +1,82 @@
+name: 🐞 Bug report / Relatar bug
+description: Something isn't working with the patches / Algo não está funcionando nos patches
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please fill in the fields below. / Obrigado por relatar! Preencha os campos abaixo.
+
+  - type: input
+    id: patch-version
+    attributes:
+      label: Patch version / Versão do patch
+      description: Release you downloaded / Release que você baixou
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / Plataforma
+      options:
+        - PCSX2
+        - Real PS2 (OPL) / PS2 real (OPL)
+    validations:
+      required: true
+
+  - type: input
+    id: platform-version
+    attributes:
+      label: PCSX2 or OPL version / Versão do PCSX2 ou do OPL
+      placeholder: "PCSX2 2.x / OPL 1.2.0"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: fov
+    attributes:
+      label: FOV version / Versão do FOV
+      options:
+        - No FOV / Sem FOV
+        - FOV +10
+        - FOV +20
+        - FOV +30
+        - FOV +40
+        - FOV +50 (PCSX2 only / só PCSX2)
+    validations:
+      required: true
+
+  - type: input
+    id: translation
+    attributes:
+      label: Break Arts translation version / Versão da tradução Break Arts
+      placeholder: "1.0.3"
+    validations:
+      required: true
+
+  - type: input
+    id: crc
+    attributes:
+      label: Game CRC (PCSX2) / CRC do jogo (PCSX2)
+      placeholder: 828E80DE
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened? / O que aconteceu?
+      description: Where in the game, what you expected and what you saw / Onde no jogo, o que esperava e o que aconteceu
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or video / Prints ou vídeo
+      description: Drag images here / Arraste as imagens aqui
+    validations:
+      required: false
