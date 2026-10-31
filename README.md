@@ -45,7 +45,7 @@ No game files are included in this repository. You need your own copy of the gam
 ### PCSX2
 
 1. Copy the `.pnach` files from the `PCSX2` folder into the PCSX2 **`patches`** folder.
-2. Right-click the game › **Properties** › **Patches** tab, enable the patches you want and restart the game.
+2. Right-click the game › **Properties** › **Patches** tab, enable the patches you want and restart the game. Enable only **one** FOV patch at a time.
 
 ### Real PS2 (OPL)
 
@@ -130,7 +130,7 @@ Este repositório não inclui nenhum arquivo do jogo. Você precisa ter a sua pr
 **PCSX2**
 
 1. Copie os arquivos `.pnach` da pasta `PCSX2` para a pasta **`patches`** do PCSX2.
-2. Clique com o botão direito no jogo › **Propriedades** › aba **Patches**, marque os patches e reinicie o jogo.
+2. Clique com o botão direito no jogo › **Propriedades** › aba **Patches**, marque os patches e reinicie o jogo. Ative só **um** patch de FOV por vez.
 
 **PS2 real (OPL)**
 
@@ -163,6 +163,14 @@ Achou algum bug? Abra uma [issue](https://github.com/RyukiSTZ/monster-hunter-2-d
 - **Claude (Anthropic)**: ajudou a escrever o código
 - **Nemesis2000**: widescreen da versão PS2
 - **Break Arts**: tradução do jogo para o inglês
+
+### 🔗 Links
+
+- 🌐 Site dos patches: [https://claude.ai/artifact/A43iaLJa7c3rmTvdhSnJW6](https://claude.ai/artifact/A43iaLJa7c3rmTvdhSnJW6)
+- ▶️ YouTube: [https://www.youtube.com/channel/UCrq_bPEtnDPP_5mFUX9wUsA](https://www.youtube.com/channel/UCrq_bPEtnDPP_5mFUX9wUsA)
+- 🟣 Twitch: [https://www.twitch.tv/ryuki_live](https://www.twitch.tv/ryuki_live)
+- 🟢 Kick: [https://kick.com/ryuki-live](https://kick.com/ryuki-live)
+- 💬 Discord: [https://discord.gg/djEMAMFyyE](https://discord.gg/djEMAMFyyE)
 
 ### 📄 Licença
 
