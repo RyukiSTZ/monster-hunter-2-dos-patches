@@ -1,0 +1,55 @@
+// ============================================================
+// BAU NA TAVERNA v2 - Monster Hunter 2 Break Arts - CRC 828E80DE
+// Abre o bau de itens num ponto da taverna online.
+// v2: o cacador agora e encontrado pelo ponteiro do jogador local
+// (005AF7A4), entao o bau continua funcionando depois de voltar de
+// uma missao, em qualquer vaga do online.
+// Area do bau: X 4039 a 4179, Z 6279 a 6419 (fora da missao).
+// Codigo novo: 000E2000-000E209C. Gancho: 00186E20.
+// ============================================================
+
+[Bau na Taverna v2]
+author=Ryuki e Claude
+description=Abre o bau de itens num ponto da taverna online (v2: funciona depois das missoes).
+// Gancho na rotina do jogo
+patch=1,EE,00186E20,word,08038800
+// Codigo do bau
+patch=1,EE,000E2000,word,27BDFFC0
+patch=1,EE,000E2004,word,3C08005D
+patch=1,EE,000E2008,word,350883B4
+patch=1,EE,000E200C,word,91090000
+patch=1,EE,000E2010,word,15200020
+patch=1,EE,000E2014,word,00000000
+patch=1,EE,000E2018,word,3C08005B
+patch=1,EE,000E201C,word,8D08F7A4
+patch=1,EE,000E2020,word,8D090090
+patch=1,EE,000E2024,word,3C0A457C
+patch=1,EE,000E2028,word,354A7000
+patch=1,EE,000E202C,word,012A582B
+patch=1,EE,000E2030,word,15600018
+patch=1,EE,000E2034,word,00000000
+patch=1,EE,000E2038,word,3C0A4582
+patch=1,EE,000E203C,word,354A9800
+patch=1,EE,000E2040,word,0149582B
+patch=1,EE,000E2044,word,15600013
+patch=1,EE,000E2048,word,00000000
+patch=1,EE,000E204C,word,8D090098
+patch=1,EE,000E2050,word,3C0A45C4
+patch=1,EE,000E2054,word,354A3800
+patch=1,EE,000E2058,word,012A582B
+patch=1,EE,000E205C,word,1560000D
+patch=1,EE,000E2060,word,00000000
+patch=1,EE,000E2064,word,3C0A45C8
+patch=1,EE,000E2068,word,354A9800
+patch=1,EE,000E206C,word,0149582B
+patch=1,EE,000E2070,word,15600008
+patch=1,EE,000E2074,word,00000000
+patch=1,EE,000E2078,word,8D0B07D0
+patch=1,EE,000E207C,word,15600005
+patch=1,EE,000E2080,word,00000000
+patch=1,EE,000E2084,word,AD0803B4
+patch=1,EE,000E2088,word,3C090080
+patch=1,EE,000E208C,word,35292888
+patch=1,EE,000E2090,word,AD0907D0
+patch=1,EE,000E2094,word,08061B8A
+patch=1,EE,000E2098,word,00000000
